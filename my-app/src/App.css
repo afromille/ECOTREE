@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(0, 0, 0); /* Define a cor de fundo do corpo da página como preto */
+  margin: 0; /* Remove a margem padrão do corpo */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* Define a família de fontes */
+  -webkit-font-smoothing: antialiased; /* Suaviza as fontes no WebKit */
+  -moz-osx-font-smoothing: grayscale; /* Suaviza as fontes no macOS */
+}
+
+.App-header {
+  display: flex; /* Define o layout flexível para o cabeçalho */
+  justify-content: space-between; /* Espaça os itens igualmente no cabeçalho */
+  align-items: center; /* Alinha os itens no centro verticalmente */
+  padding: 10px; /* Adiciona 10 pixels de preenchimento ao cabeçalho */
+  background-color: rgb(40, 143, 95); /* Define a cor de fundo do cabeçalho */
+  width: 100%; /* Define a largura do cabeçalho */
+  box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+.logo-container {
+  display: flex; /* Define o layout flexível para o contêiner da logo */
+  align-items: center; /* Alinha os itens no centro verticalmente */
+}
+
+.logo {
+  height: 40px; /* Define a altura da logo */
+  margin-right: 15px; /* Adiciona 15 pixels de margem à direita da logo */
+}
+
+.nav-links {
+  display: flex; /* Define o layout flexível para os links de navegação */
+  justify-content: center; /* Centraliza os links de navegação */
+  flex-grow: 1; /* Permite que os links de navegação cresçam para ocupar o espaço disponível */
+}
+
+.nav-links a {
+  margin: 0 10px; /* Adiciona 10 pixels de margem horizontal aos links */
+  color: white; /* Define a cor do texto dos links como branco */
+  text-decoration: none; /* Remove a decoração padrão dos links */
+}
+
+.auth-buttons {
+  display: flex; /* Define o layout flexível para os botões de autenticação */
+  gap: 10px; /* Adiciona um espaço de 10 pixels entre os botões */
+}
+
+.signup-button, .login-button {
+  background-color: #61dafb; /* Define a cor de fundo dos botões */
+  border: none; /* Remove a borda dos botões */
+  padding: 20px; /* Adiciona 20 pixels de preenchimento aos botões */
+  color: black; /* Define a cor do texto dos botões como preto */
+  cursor: pointer; /* Define o cursor como ponteiro ao passar sobre os botões */
+  border-radius: 5px; /* Adiciona bordas arredondadas aos botões */
+}
+
+.signup-button:hover, .login-button:hover {
+  background-color: #21a1f1; /* Altera a cor de fundo dos botões ao passar o mouse sobre eles */
+}
+
+.App-main {
+  display: flex; /* Define o layout flexível para o conteúdo principal */
+  justify-content: center; /* Centraliza o conteúdo principal */
+  padding: 20px; /* Adiciona 20 pixels de preenchimento ao conteúdo principal */
+}
+
+.content {
+  padding: 10px; /* Adiciona preenchimento dentro das divs */
+  background-color: black; /* Define a cor de fundo das divs como preto */
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o texto dentro das divs */
+  border-radius: 10px;
+  margin: 0 10px; /* Adiciona 10 pixels de margem horizontal entre as divs */
+  display: block;
+  border: 3px solid transparent; /* Define a borda transparente */
+  background: linear-gradient(black, black) padding-box, linear-gradient(to right, #00ff00, #00cc00, #009900) border-box; /* Adiciona o gradiente verde brilhante */
+}
+
+.img2 {
+  padding: 10px; /* Adiciona preenchimento dentro das divs */
+  background-color: black; /* Define a cor de fundo das divs como preto */
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o texto dentro das divs */
+  border-radius: 10px;
+  margin: 0 10px; /* Adiciona 10 pixels de margem horizontal entre as divs */
+  display: block;
+  border: 3px solid transparent; /* Define a borda transparente */
+  background: linear-gradient(black, black) padding-box, linear-gradient(to right, #00ff00, #00cc00, #009900) border-box; /* Adiciona o gradiente verde brilhante */
+}
+
+.img3 {
+  padding: 10px; /* Adiciona preenchimento dentro das divs */
+  background-color: black; /* Define a cor de fundo das divs como preto */
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o texto dentro das divs */
+  border-radius: 10px;
+  margin: 0 10px; /* Adiciona 10 pixels de margem horizontal entre as divs */
+  display: block;
+  border: 3px solid transparent; /* Define a borda transparente */
+  background: linear-gradient(black, black) padding-box, linear-gradient(to right, #00ff00, #00cc00, #009900) border-box; /* Adiciona o gradiente verde brilhante */
+}
+
+.img4 {
+  padding: 10px; /* Adiciona preenchimento dentro das divs */
+  background-color: black; /* Define a cor de fundo das divs como preto */
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o texto dentro das divs */
+  border-radius: 10px;
+  margin: 0 10px; /* Adiciona 10 pixels de margem horizontal entre as divs */
+  display: block;
+  border: 3px solid transparent; /* Define a borda transparente */
+  background: linear-gradient(black, black) padding-box, linear-gradient(to right, #00ff00, #00cc00, #009900) border-box; /* Adiciona o gradiente verde brilhante */
+}
+
+.img5 {
+  padding: 10px; /* Adiciona preenchimento dentro das divs */
+  background-color: black; /* Define a cor de fundo das divs como preto */
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o texto dentro das divs */
+  border-radius: 10px;
+  margin: 0 10px; /* Adiciona 10 pixels de margem horizontal entre as divs */
+  display: block;
+  border: 3px solid transparent; /* Define a borda transparente */
+  background: linear-gradient(black, black) padding-box, linear-gradient(to right, #00ff00, #00cc00, #009900) border-box; /* Adiciona o gradiente verde brilhante */
+}
+
+.contact-form{
+  padding: 10px; /* Adiciona preenchimento dentro das divs */
+  background-color: black; /* Define a cor de fundo das divs como preto */
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o texto dentro das divs */
+  border-radius: 10px;
+  margin: 0 10px; /* Adiciona 10 pixels de margem horizontal entre as divs */
+  display: block;
+  border: 3px solid transparent; /* Define a borda transparente */
+  background: linear-gradient(black, black) padding-box, linear-gradient(to right, #00ff00, #00cc00, #009900) border-box; /* Adiciona o gradiente verde brilhante */
+}
+
+.App-footer {
+  text-align: center; /* Centraliza o texto no rodapé */
+  padding: 10px; /* Adiciona 10 pixels de preenchimento ao rodapé */
+  background-color: #282c34; /* Define a cor de fundo do rodapé */
+  color: white; /* Define a cor do texto do rodapé como branco */
+}
